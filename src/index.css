@@ -1,0 +1,23 @@
+body { margin: 0; }
+* { box-sizing: border-box; }
+::selection { background: #846419; color: #f5eec9; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(199,199,199,0.25); border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+select option { background: #161616; color: #ECE6D8; }
+
+@keyframes toastIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes sidebarSlide { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeSlideIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+.nav-item:hover { background: rgba(245,221,144,0.06); }
+.btn-gold:hover { background: #f5dd90; color: #241a04; border-color: #f5dd90; }
+.btn-ghost:hover { border-color: #f5dd90; color: #f5dd90; }
+.icon-btn:hover { border-color: #f5dd90; color: #f5dd90; }
+.icon-btn-danger:hover { border-color: #e0796f; color: #e0796f; }
+.polo-card:hover { border-color: #f5dd90; }
+.task-row:hover { background: rgba(245,221,144,0.05); }
+.sug-item:hover { background: rgba(245,221,144,0.08); }
+.picker-item:hover { border-color: #f5dd90; background: rgba(245,221,144,0.06); }
+.close-btn:hover { color: #f5dd90; }
+.rm-btn:hover { color: #e0796f; }
